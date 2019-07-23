@@ -9,6 +9,7 @@ var makeFastSquareDancer = function(top, left, timeBetweenSteps) {
   };
 
   this.$node = $(`<span class="square-dancer" style="height: 60px; width: 60px; background-color: ${generateRandomColorValue()}"></span>`)
+  // this.$node = $(`<span class="square-dancer" style="height: 325px; width: 355px; background-image: url('https://media.giphy.com/media/UO5elnTqo4vSg/giphy.gif')"></span>`)
   this.setPosition(top,left)
 };
 
@@ -18,6 +19,9 @@ makeFastSquareDancer.prototype.constructor = makeFastSquareDancer;
 makeFastSquareDancer.prototype.step = function() {
   makeDancer.prototype.step.call(this);
 
-  this.$node.toggle();s
+  this.$node.toggle();
 };
 
+makeFastSquareDancer.prototype.lineUp = function() {
+
+};

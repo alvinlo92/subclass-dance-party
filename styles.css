@@ -16,6 +16,8 @@ body, a:link, a:visited, a:active{
 .topbar{
   height:32px;
   background-color: #555;
+  /* display: flex;
+  justify-content: flex-end; */
 }
 .title{
   background-color: #777;
@@ -29,4 +31,11 @@ body, a:link, a:visited, a:active{
 .square-dancer {
   border: 30px blue;
   position: absolute;
+}
+
+.dancer-container {
+  display:flex;
+  height: 50px;
+  width: -webkit-fill-available;
+  background-color: white;
 }
