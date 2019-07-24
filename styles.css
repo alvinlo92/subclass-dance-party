@@ -18,6 +18,9 @@ body, a:link, a:visited, a:active{
 .topbar{
   height:32px;
   background-color: #555;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .title{
   background-color: #777;
